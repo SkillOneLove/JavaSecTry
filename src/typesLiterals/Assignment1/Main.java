@@ -1,6 +1,6 @@
-package Assignment2;
+package typesLiterals.Assignment1;
 public class Main {
-        static byte defaultByte;
+    static byte defaultByte;
     static short defaultShort;
     static int defaultInt;
     static long defaultLong;

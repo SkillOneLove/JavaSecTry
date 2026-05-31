@@ -1,4 +1,4 @@
-package Assignment1;
+package consolio.Assignment1;
 import java.util.Scanner;
 
 
