@@ -9,9 +9,20 @@ public class Main {
         float f = 5.5f;
         double d = 6.7;
 
+        // b + s: byte и short всегда в операциях расширяются до int (оба меньше int)
+        // Результат: int
         int result1 = b + s;
+
+        // i + l: int расширяется до long (long больше int)
+        // Результат: long
         long result2 = i + l;
+
+        // l + f: long расширяется до float (float стоит правее long в цепочке расширения)
+        // Результат: float
         float result3 = l + f;
+
+        // f + d: float расширяется до double (double больше float)
+        // Результат: double
         double result4 = f + d;
 
         System.out.println("byte + short = " + result1);
