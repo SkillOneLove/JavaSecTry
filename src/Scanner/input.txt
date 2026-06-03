@@ -1,0 +1,3 @@
+Hello, world!
+Java file reading example.
+End of file.
