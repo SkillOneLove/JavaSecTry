@@ -1,12 +1,12 @@
 package ByteAndCharacterIoStreams.Assignment4;
 
-/**
- * AutoCloseable
- */
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 
+/**
+ * AutoCloseable
+ */
 public class Main {
     public static void main(String[] args) throws IOException {
         /*
